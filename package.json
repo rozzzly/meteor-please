@@ -11,7 +11,6 @@
     "prompt-improved": "0.1.x",
     "jsonfile": "2.0.0"
   },
-  //"start": "node index.js",
   "bin": {
     "paty": "./bin/paty"
   },
