@@ -1,23 +1,11 @@
 {
   "name": "meteor-please-and-thank-you",
-  "version": "0.1.15",
+	"version": "0.1.0",
   "description": "Simple Meteor Deployment for RHEL/CentOS 7+",
-  "dependencies": {
-    "nodemiral-forcetty": "0.4.x",
-    "colors": "0.3.x",
-    "underscore": "1.7.0",
-    "cjson": "0.3.x",
-    "prompt": "0.2.x",
-    "prompt-improved": "0.1.x",
-    "jsonfile": "2.0.0"
-  },
   "bin": {
     "paty": "./bin/paty"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rozzzly/meteor-please-and-thank-you.git"
-  },
+	"repository": "git://github.com/rozzzly/meteor-please-and-thank-you.git",
   "keywords": [
     "paty",
     "mplz",
@@ -30,10 +18,18 @@
   ],
   "author": "Kevin van Guldenaar <kevin@kevincharm.com>",
   "contributors": {
-  	"name": "rozzzly (Patrick Lienau)",
-	"email": "pclienau@gmail.com",
-	"url": "https://github.com/rozzzly"
+	  "name": "rozzzly",
+	  "email": "pclienau@gmail.com",
+	  "url": "https://github.com/rozzzly"
   },
   "license": "MIT",
-  "private": true
+	"dependencies": {
+		"cjson": "^0.3.1",
+		"colors": "^1.1.2",
+		"jsonfile": "^2.2.1",
+		"nodemiral-forcetty": "^0.4.2",
+		"prompt": "^0.2.14",
+		"prompt-improved": "^0.1.10",
+		"underscore": "^1.8.3"
+	}
 }
