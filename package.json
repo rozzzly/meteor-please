@@ -1,28 +1,28 @@
 {
-  "name": "meteor-please-and-thank-you",
+	"name": "meteor-please-and-thank-you",
 	"version": "0.1.0",
-  "description": "Simple Meteor Deployment for RHEL/CentOS 7+",
-  "bin": {
-    "paty": "./bin/paty"
-  },
+	"description": "Simple Meteor Deployment for RHEL/CentOS 7+",
+	"bin": {
+		"paty": "./bin/paty"
+	},
 	"repository": "git://github.com/rozzzly/meteor-please-and-thank-you.git",
-  "keywords": [
-    "paty",
-    "mplz",
-    "meteor-please",
-    "meteor",
-    "deploy",
-    "centos",
-    "rhel",
-    "fedora"
-  ],
-  "author": "Kevin van Guldenaar <kevin@kevincharm.com>",
-  "contributors": {
-	  "name": "rozzzly",
-	  "email": "pclienau@gmail.com",
-	  "url": "https://github.com/rozzzly"
-  },
-  "license": "MIT",
+	"keywords": [
+		"paty",
+		"mplz",
+		"meteor-please",
+		"meteor",
+		"deploy",
+		"centos",
+		"rhel",
+		"fedora"
+	],
+	"author": "Kevin van Guldenaar <kevin@kevincharm.com>",
+	"contributors": {
+		"name": "rozzzly",
+		"email": "pclienau@gmail.com",
+		"url": "https://github.com/rozzzly"
+	},
+	"license": "MIT",
 	"dependencies": {
 		"cjson": "^0.3.1",
 		"colors": "^1.1.2",
