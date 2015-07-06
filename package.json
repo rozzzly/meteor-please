@@ -19,7 +19,9 @@
     "url": "git://github.com/rozzzly/meteor-please-and-thank-you.git"
   },
   "keywords": [
+    "paty",
     "mplz",
+    "meteor-please",
     "meteor",
     "deploy",
     "centos",
