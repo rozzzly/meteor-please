@@ -1,3 +1,14 @@
+meteor-please-and-thank-you
+====================================================
+#### My, even more polite, fork of [meteor-please](https://github.com/hellstad/meteor-please). Customized with the features I want/need.
+
+I'll try to make some Pull Requests to push some of my edits, new features to the parent repo
+
+the repo name is too long... I might make it please-and-thank-you
+
+
+orignal repo  documentation
+----------------------------------------------------
 # meteor-please
 [![npm version](https://badge.fury.io/js/mplz.svg)](http://badge.fury.io/js/mplz)
 ### Simple Meteor Deployment for RHEL/CentOS 7+

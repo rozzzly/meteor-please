@@ -1,6 +1,6 @@
 {
-  "name": "mplz",
-  "version": "0.1.14",
+  "name": "meteor-please-and-thank-you",
+  "version": "0.1.15",
   "description": "Simple Meteor Deployment for RHEL/CentOS 7+",
   "dependencies": {
     "nodemiral-forcetty": "0.4.x",
@@ -11,12 +11,13 @@
     "prompt-improved": "0.1.x",
     "jsonfile": "2.0.0"
   },
+  //"start": "node index.js",
   "bin": {
-    "mplz": "./bin/mplz"
+    "paty": "./bin/paty"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hellstad/meteor-please.git"
+    "url": "git://github.com/rozzzly/meteor-please-and-thank-you.git"
   },
   "keywords": [
     "mplz",
@@ -27,5 +28,11 @@
     "fedora"
   ],
   "author": "Kevin van Guldenaar <kevin@kevincharm.com>",
-  "license": "MIT"
+  "contributors": {
+  	"name": "rozzzly (Patrick Lienau)",
+	"email": "pclienau@gmail.com",
+	"url": "https://github.com/rozzzly"
+  },
+  "license": "MIT",
+  "private": true
 }
