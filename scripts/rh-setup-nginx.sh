@@ -21,9 +21,9 @@ sudo mkdir /etc/nginx/sites-enabled
 # nginx daemon
 sudo systemctl enable nginx
 sudo systemctl start nginx
-# firewalld
-sudo systemctl enable firewalld
-sudo systemctl start firewalld
-sudo firewall-cmd --permanent --zone=public --add-service=http 
-sudo firewall-cmd --permanent --zone=public --add-service=https
-sudo firewall-cmd --reload
+# firewalld --- turn this off because its ruining everything
+#sudo systemctl enable firewalld
+#sudo systemctl start firewalld
+#sudo firewall-cmd --permanent --zone=public --add-service=http
+#sudo firewall-cmd --permanent --zone=public --add-service=https
+#sudo firewall-cmd --reload
