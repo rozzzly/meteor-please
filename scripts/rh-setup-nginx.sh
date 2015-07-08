@@ -13,14 +13,13 @@ sudo mkdir -p /etc/systemd/system/meteor-please
 sudo chown meteor-please:developers /etc/systemd/system/meteor-please
 sudo chmod 775 /etc/systemd/system/meteor-please
 # install nginx
-sudo mkdir -p /etc/nginx
 sudo yum install -y nginx
 sudo chown root:developers /etc/nginx/nginx.conf
-sudo chmod g+w /etc/nginx.conf
+sudo chmod g+w /etc/nginx/nginx.conf
 #
-sudo mkdir /etc/nginx/sites-enabled
+sudo mkdir -p /etc/nginx/sites-enabled
 sudo chown root:developers /etc/nginx/sites-enabled
-sudo chmod g+w /etc/sites-enabled
+sudo chmod g+w /etc/nginx/sites-enabled
 # nginx daemon
 sudo systemctl enable nginx
 sudo systemctl start nginx
