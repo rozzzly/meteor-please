@@ -3,17 +3,17 @@ Description=<%= appName %> nodejs daemon
 After=network.target remote-fs.target
 
 [Service]
-User=<%= appUser %>
+User=<% appUser %>
 ExecStart=/usr/local/bin/node /var/www/meteor-please/<%= appName %>/bundle/main.js
 Restart=always
 StandardOutput=syslog
 StandardError=syslog
-SyslogIdentifier=<%= appName %>
-Environment=ROOT_URL=<%= appRootUrl %>
-Environment=PORT=<%= appPort %>
+SyslogIdentifier=<% appName %>
+Environment=ROOT_URL=<% appRootUrl %>
+Environment=PORT=<% appPort %>
 Environment=NODE_ENV=production
-Environment=MONGO_URL=<%= appMongoUrl %>
-Environment=METEOR_SETTINGS=<%- appEnv %>
+Environment=MONGO_URL=<% appMongoUrl %>
+Environment=METEOR_SETTINGS=<% appEnv %>
 
 [Install]
 WantedBy=multi-user.target
