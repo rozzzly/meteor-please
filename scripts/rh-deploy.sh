@@ -16,5 +16,5 @@ exit
 
 # restart daemon
 sudo systemctl daemon-reload
-sudo systemctl enable <% appName %>.service
-sudo systemctl start <% appName %>.service
+sudo systemctl enable <%= appName %>.service
+sudo systemctl start <%= appName %>.service
