@@ -1,6 +1,12 @@
 {
 	"name": "meteor-please-and-thank-you",
+<<<<<<< HEAD
 	"version": "0.1.59",
+||||||| merged common ancestors
+	"version": "0.1.58",
+=======
+	"version": "0.1.60",
+>>>>>>> 9cbd43635593588a702ba60ea3141b4b406cd93f
 	"description": "Simple Meteor Deployment for RHEL/CentOS 7+",
 	"bin": {
 		"paty": "./bin/paty"
