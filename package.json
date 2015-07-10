@@ -1,6 +1,6 @@
 {
 	"name": "meteor-please-and-thank-you",
-	"version": "0.1.655555",
+	"version": "0.1.69",
 	"description": "Simple Meteor Deployment for RHEL/CentOS 7+",
 	"bin": {
 		"paty": "./bin/paty"
