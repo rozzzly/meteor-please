@@ -17,9 +17,8 @@ exit
 # symlink service config from meteor-please to the base directory so it can get picked up
 sudo ln -s /etc/systemd/system/meteor-please/<%= appName %>.service /etc/systemd/system/<%= appName %>.service
 
-# enable with systemctl
-sudo systemctl enable
-
+# enable that serice
+sudo systemctl enable /etc/systemd/system/<%= appName %>.service 
 
 # restart daemon
 sudo systemctl daemon-reload
